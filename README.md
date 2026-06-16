@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 🌍 Omurama Civil and Computer Engineering Company Limited Website
 
@@ -272,3 +273,5 @@ If you find this project useful, please star the repository and contribute to th
 ### Omurama Civil and Computer Engineering Company Limited
 
 **Engineering Innovation • Artificial Intelligence • Big Data Analytics • Sustainable Infrastructure**
+=======
+>>>>>>> 86d6103 (Updated Omurama website design and animations)
