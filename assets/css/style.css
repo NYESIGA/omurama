@@ -941,6 +941,79 @@ display: inline-block;
 .twitter:hover{background: #fff;color:#0CBCE3!important;}
 .google{background: #F04537;}
 .google:hover{background: #fff;color:#F04537!important;}
+
+/* =========================
+   SOCIAL ICONS SAME LINE
+========================= */
+
+.team-social,
+.social-links,
+.social_icon {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    flex-wrap:nowrap;
+    margin-top:15px;
+}
+
+.team-social a,
+.social-links a,
+.social_icon a{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:#fff;
+    text-decoration:none;
+    transition:0.4s;
+}
+
+.team-social a:hover,
+.social-links a:hover,
+.social_icon a:hover{
+    transform:translateY(-5px);
+}
+
+/* =========================
+   TEAM IMAGES SAME SIZE
+========================= */
+
+.single-team img,
+.our-team img,
+.team-member img{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+    margin:0 auto;
+    transition:0.5s;
+}
+
+.single-team:hover img,
+.our-team:hover img{
+    transform:scale(1.05);
+}
+
+/* =========================
+   TEAM CARD SAME HEIGHT
+========================= */
+
+.single-team,
+.our-team,
+.team-member{
+    text-align:center;
+    min-height:480px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 12.END TEAM DESIGN
