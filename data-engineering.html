@@ -83,7 +83,9 @@
 			  </div>
 			  <div class="col-12 col-md-10 d-none d-xl-block">
 				<nav class="site-navigation position-relative text-right" role="navigation">
-					
+					<a class="navbar-brand" href="index.html" style="margin-left:auto;">
+    <img src="assets/img/logo.jpeg" alt="Omurama Logo" style="height:60px;">
+</a>
 				  <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
 				  	<li class="has-children">
 					  <a href="index.html" class="nav-link">Home</a>
@@ -144,6 +146,594 @@
 		</header>
 	   <!-- END NAVBAR-->	
 
+<!-- START BIG DATA SECTION TOP -->
+
+<section class="section-top bigdata-header"
+style="background-image:url(assets/img/bg/section-top.png);
+background-size:cover;
+background-position:center center;">
+
+
+<!-- Animated Background Layers -->
+
+<div class="data-overlay"></div>
+
+
+<!-- Data Particles -->
+
+<div class="data-particle p1">101010</div>
+<div class="data-particle p2">110101</div>
+<div class="data-particle p3">BIG DATA</div>
+<div class="data-particle p4">AI</div>
+<div class="data-particle p5">ML</div>
+<div class="data-particle p6">DATA LAKE</div>
+
+
+<!-- Floating Data Icons -->
+
+<div class="data-icon icon1">📊</div>
+<div class="data-icon icon2">☁️</div>
+<div class="data-icon icon3">⚡</div>
+<div class="data-icon icon4">🧠</div>
+<div class="data-icon icon5">🔗</div>
+
+
+
+<!-- Data Network -->
+
+<div class="network">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+
+
+<div class="section-top-title bigdata-title">
+
+
+<h1>
+Omurama Data Engineering
+</h1>
+
+
+<p>
+Transforming Data Into Intelligence • AI • Machine Learning • Data Engineering
+</p>
+
+
+<div class="data-line"></div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<!-- END BIG DATA SECTION TOP -->
+
+
+
+
+
+<style>
+
+
+/* MAIN SECTION */
+
+.bigdata-header{
+
+position:relative;
+overflow:hidden;
+min-height:380px;
+
+display:flex;
+align-items:center;
+
+}
+
+
+/* DARK TECH OVERLAY */
+
+.data-overlay{
+
+position:absolute;
+inset:0;
+
+background:
+linear-gradient(
+120deg,
+rgba(0,0,0,.85),
+rgba(0,90,180,.45)
+);
+
+animation:
+dataGlow 8s infinite alternate;
+
+}
+
+
+@keyframes dataGlow{
+
+
+from{
+opacity:.7;
+}
+
+
+to{
+opacity:1;
+}
+
+}
+
+
+
+/* TITLE */
+
+
+.bigdata-title{
+
+position:relative;
+z-index:5;
+
+animation:
+titleReveal 1.5s ease;
+
+
+}
+
+
+
+.bigdata-title h1{
+
+
+font-size:60px;
+font-weight:900;
+
+color:white;
+
+
+text-shadow:
+
+0 0 20px #00eaff,
+0 0 50px #007bff;
+
+
+animation:
+textPulse 3s infinite;
+
+
+}
+
+
+
+.bigdata-title p{
+
+
+color:white;
+
+font-size:20px;
+
+margin-top:15px;
+
+letter-spacing:1px;
+
+}
+
+
+
+@keyframes titleReveal{
+
+
+from{
+
+opacity:0;
+transform:
+translateY(60px);
+
+}
+
+
+to{
+
+opacity:1;
+transform:
+translateY(0);
+
+}
+
+
+}
+
+
+
+@keyframes textPulse{
+
+
+0%{
+text-shadow:
+0 0 15px #00eaff;
+}
+
+
+50%{
+
+text-shadow:
+0 0 45px #008cff;
+
+}
+
+
+100%{
+
+text-shadow:
+0 0 15px #00eaff;
+
+}
+
+
+}
+
+
+
+
+/* DATA PARTICLES */
+
+
+.data-particle{
+
+
+position:absolute;
+
+z-index:3;
+
+color:#00ffff;
+
+font-weight:bold;
+
+font-size:22px;
+
+opacity:.8;
+
+
+text-shadow:
+0 0 20px #00ffff;
+
+
+animation:
+dataFloat 7s infinite ease-in-out;
+
+
+}
+
+
+
+
+.p1{
+top:20%;
+left:8%;
+}
+
+.p2{
+bottom:20%;
+left:15%;
+animation-delay:2s;
+}
+
+
+.p3{
+top:15%;
+right:10%;
+}
+
+
+.p4{
+bottom:30%;
+right:15%;
+animation-delay:3s;
+}
+
+
+.p5{
+top:50%;
+left:5%;
+animation-delay:1s;
+}
+
+
+.p6{
+bottom:10%;
+right:40%;
+animation-delay:4s;
+}
+
+
+
+
+@keyframes dataFloat{
+
+
+0%{
+
+transform:
+translateY(0)
+rotate(0);
+
+}
+
+
+50%{
+
+transform:
+translateY(-40px)
+rotate(15deg);
+
+}
+
+
+100%{
+
+transform:
+translateY(0)
+rotate(0);
+
+}
+
+}
+
+/* DATA ICONS */
+
+
+.data-icon{
+
+
+position:absolute;
+
+font-size:45px;
+
+z-index:4;
+
+animation:
+iconMove 6s infinite ease-in-out;
+
+}
+
+
+.icon1{
+top:20%;
+left:25%;
+}
+
+
+.icon2{
+bottom:20%;
+right:25%;
+animation-delay:2s;
+}
+
+
+.icon3{
+top:50%;
+right:5%;
+}
+
+.icon4{
+top:25%;
+right:35%;
+animation-delay:3s;
+}
+
+
+.icon5{
+bottom:15%;
+left:35%;
+}
+
+
+@keyframes iconMove{
+
+
+0%{
+
+transform:
+scale(1);
+
+}
+
+
+50%{
+
+transform:
+scale(1.3)
+translateY(-25px);
+
+}
+
+100%{
+
+transform:
+scale(1);
+
+}
+
+
+}
+
+/* NETWORK EFFECT */
+
+
+.network span{
+
+
+position:absolute;
+
+width:8px;
+
+height:8px;
+
+background:#00ffff;
+
+border-radius:50%;
+
+
+box-shadow:
+0 0 20px #00ffff;
+
+
+animation:
+nodeMove 5s infinite;
+
+
+}
+
+.network span:nth-child(1){
+top:30%;
+left:30%;
+}
+
+
+.network span:nth-child(2){
+top:60%;
+left:45%;
+animation-delay:1s;
+}
+
+
+.network span:nth-child(3){
+top:40%;
+right:30%;
+animation-delay:2s;
+}
+
+
+.network span:nth-child(4){
+bottom:20%;
+right:40%;
+animation-delay:3s;
+}
+
+
+.network span:nth-child(5){
+top:20%;
+right:10%;
+animation-delay:4s;
+}
+
+
+
+
+@keyframes nodeMove{
+
+
+0%{
+
+transform:
+scale(.5);
+
+opacity:.4;
+
+}
+
+
+50%{
+
+transform:
+scale(2);
+
+opacity:1;
+
+}
+
+
+100%{
+
+transform:
+scale(.5);
+
+opacity:.4;
+
+}
+
+}
+
+/* Bottom Data Line */
+.data-line{
+width:200px;
+
+height:4px;
+
+margin:25px auto;
+
+background:#00ffff;
+animation:
+lineGrow 3s infinite;
+}
+@keyframes lineGrow{
+
+
+0%{
+width:50px;
+}
+
+
+50%{
+width:300px;
+}
+
+100%{
+width:50px;
+}
+
+}
+
+@media(max-width:768px){
+
+.bigdata-title h1{
+
+font-size:38px;
+
+}
+
+.bigdata-title p{
+
+font-size:14px;
+
+}
+
+.data-icon{
+
+font-size:30px;
+
+}
+
+
+}
+
+
+
+</style>
+
+
+
+
+
 
 	   <!-- START DATA ENGINEERING SERVICES PAGE -->
 
@@ -155,7 +745,7 @@
 <div class="row align-items-center mb-5">
 
     <div class="col-lg-6">
-        <img src="assets/img/project/1.jpg" class="img-fluid rounded shadow" alt="Data Engineering">
+        <img src="assets/img/project/28.png" class="img-fluid rounded shadow" alt="Data Engineering">
     </div>
 
     <div class="col-lg-6">
@@ -211,7 +801,7 @@
     </div>
 
     <div class="col-lg-6">
-        <img src="assets/img/project/2.jpg" class="img-fluid rounded shadow">
+        <img src="assets/img/project/29.png" class="img-fluid rounded shadow">
     </div>
 
 </div>
@@ -220,7 +810,7 @@
 <div class="row align-items-center mb-5">
 
     <div class="col-lg-6">
-        <img src="assets/img/project/3.jpg" class="img-fluid rounded shadow">
+        <img src="assets/img/project/30.jpg" class="img-fluid rounded shadow">
     </div>
 
     <div class="col-lg-6">
@@ -271,7 +861,7 @@
     </div>
 
     <div class="col-lg-6">
-        <img src="assets/img/project/4.jpg" class="img-fluid rounded shadow">
+        <img src="assets/img/project/31.jpg" class="img-fluid rounded shadow">
     </div>
 
 </div>
@@ -280,7 +870,7 @@
 <div class="row align-items-center mb-5">
 
     <div class="col-lg-6">
-        <img src="assets/img/project/5.jpg" class="img-fluid rounded shadow">
+        <img src="assets/img/project/21.jpg" class="img-fluid rounded shadow">
     </div>
 
     <div class="col-lg-6">
@@ -316,7 +906,7 @@
             Technologies We Use
         </h2>
 
-        <p style="font-size:18px;line-height:35px;color:#555;">
+        <p style="font-size:18px;line-height:35px;color:#555555;">
             Python • SQL • PostgreSQL • MySQL • MongoDB • Apache Spark • Hadoop • Apache Kafka • Airflow • Docker • Kubernetes • AWS • Microsoft Azure • Google Cloud Platform • Power BI • Tableau
         </p>
 
@@ -392,81 +982,602 @@
 			
 		
 		<!-- START SECTION TOP -->
-		<section class="section-top" style="background-image: url(assets/img/bg/section-top.png);background-size:cover; background-position: center center;">
-			<div class="container">
-				<div class="row">
-				  <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
-					<div class="section-top-title">
-						<h1>2026 Project Details</h1>		
-					</div>
-				  </div><!--- END COL -->				  
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END SECTION TOP -->
+<section class="section-top data-engineering-header"
+style="background-image:url(assets/img/bg/section-top.png);
+background-size:cover;
+background-position:center center;">
 
-		<!-- START PORTFOLIO SINGLE PROJECT -->
-		<section class="single_project_area section-padding">	
-			<div class="container">
-				<div class="row project_dec">
-					<div class="col-lg-6 col-sm-12 col-xs-12">
-						<div class="media-left">
-							<img src="assets/img/portfolio/8.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						<div class="media-left">
-							<img src="assets/img/portfolio/9.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						</div>
-						<div class="col-lg-6 col-sm-12 col-xs-12">
-							<div class="project_details">
-								<div class="about_project">
-									<h4>About Bestmark Network Infrastructure Project</h4>
-									<p>Omurama successfully delivered a complete network infrastructure solution for Bestmark, including network design, structured cabling, Wi-Fi deployment, router and switch configuration, security implementation, and system integration, ensuring reliable and secure connectivity across the organization..</p>
-								</div>
-								<div class="about_project_details">
-									<ul>
-										<li><i class="fa fa-user"></i><b>Client: </b>Google, Inc</li>
-										<li><i class="fa fa-clock-o"></i><b>Date: </b>01 Sep, 2026</li>
-										<li><i class="fa fa-folder"></i><b>Category: </b><a href="#">Networking Services</a></li>
-										<li><i class="fa fa-folder"></i><b>Project Url: </b><a href="#">www.google.com</a></li>
-									</ul>
-								</div>
-								<a class="btn_one" href="#">See Live Project</a>
-							</div>
-						</div><!--- END COL -->
-				</div><!--- END ROW -->
-				<div class="row project_dec">
-					<div class="col-lg-6 col-sm-12 col-xs-12">
-						<div class="media-left">
-							<img src="assets/img/portfolio/2.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						<div class="media-left">
-							<img src="assets/img/portfolio/7.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						
-						</div>
-						<div class="col-lg-6 col-sm-12 col-xs-12">
-							<div class="project_details">
-								<div class="about_project">
-									<h4>About Kira Road Commercial Building Project </h4>
-									<p>Omurama Civil and Computer Engineering Company Limited successfully delivered the complete construction of a modern commercial building on Kira Road, Kampala. The project included structural construction, architectural works, electrical and plumbing installations, façade development, painting, paving, and final finishing, demonstrating our expertise in delivering end-to-end construction solutions..</p>
-								</div>
 
-								<div class="about_project_details">
-									<ul>
-										<li><i class="fa fa-user"></i><b>Client: </b>Google, Inc</li>
-										<li><i class="fa fa-clock-o"></i><b>Date: </b>02 Sep, 2025</li>
-										<li><i class="fa fa-folder"></i><b>Category: </b><a href="#"></a>Civil Engineering Services</li>
-										<li><i class="fa fa-folder"></i><b>Project Url: </b><a href="#">www.google.com</a></li>
-									</ul>
-								</div>
-								<a class="btn_one" href="#">See Live Project</a>
-							</div>
-						</div><!--- END COL -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>	
-		<!-- END PORTFOLIO SINGLE PROJECT -->
+<div class="data-bg"></div>
+
+
+<!-- Moving Data Particles -->
+<div class="particle p1">101010</div>
+<div class="particle p2">BIG DATA</div>
+<div class="particle p3">AI</div>
+<div class="particle p4">ML</div>
+<div class="particle p5">ETL</div>
+<div class="particle p6">API</div>
+
+
+<div class="container">
+
+<div class="row">
+
+
+<div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+
+
+<div class="section-top-title">
+
+
+<h1>
+Omurama Data Engineering Platform
+</h1>
+
+
+<p>
+Data Lake • Data Warehouse • Lakehouse • Data Mesh • AI Analytics
+</p>
+
+
+
+<!-- Architecture Animation -->
+
+<div class="architecture">
+
+
+<div class="data-box source">
+Data Sources
+<br>
+🌐 📱 IoT
+</div>
+
+
+<div class="arrow">➜</div>
+
+
+<div class="data-box ingestion">
+Data Ingestion
+<br>
+Kafka / APIs
+</div>
+
+
+<div class="arrow">➜</div>
+
+
+<div class="data-box processing">
+Processing
+<br>
+Spark
+</div>
+
+
+<div class="arrow">➜</div>
+
+
+<div class="data-box storage">
+Data Lakehouse
+<br>
+Warehouse
+</div>
+
+
+<div class="arrow">➜</div>
+
+
+<div class="data-box analytics">
+AI Analytics
+<br>
+Reports
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</section>
+<!-- END SECTION TOP -->
+
+
+
+
+
+
+<style>
+
+
+.data-engineering-header{
+
+position:relative;
+overflow:hidden;
+min-height:480px;
+
+display:flex;
+align-items:center;
+
+}
+
+
+
+.data-bg{
+
+
+position:absolute;
+inset:0;
+
+background:
+
+linear-gradient(
+120deg,
+rgba(0,0,0,.9),
+rgba(0,90,180,.5)
+);
+
+
+animation:bgMove 8s infinite alternate;
+
+}
+
+
+
+@keyframes bgMove{
+
+
+from{
+transform:scale(1);
+}
+
+
+to{
+transform:scale(1.15);
+}
+
+
+}
+
+
+
+
+.section-top-title{
+
+position:relative;
+z-index:5;
+
+animation:showTitle 1.5s ease;
+
+
+}
+
+
+
+.section-top-title h1{
+
+
+font-size:55px;
+
+font-weight:900;
+
+color:white;
+
+
+text-shadow:
+
+0 0 20px #00ffff,
+0 0 50px #008cff;
+
+
+animation:glow 3s infinite;
+
+
+}
+
+
+
+.section-top-title p{
+
+color:#fff;
+
+font-size:20px;
+
+margin-bottom:40px;
+
+}
+
+
+
+
+@keyframes glow{
+
+
+0%{
+text-shadow:
+0 0 10px #00ffff;
+}
+
+
+50%{
+
+text-shadow:
+0 0 50px #008cff;
+
+}
+
+
+100%{
+
+text-shadow:
+0 0 10px #00ffff;
+
+}
+
+
+}
+
+
+
+
+
+@keyframes showTitle{
+
+
+from{
+
+opacity:0;
+
+transform:
+translateY(50px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:
+translateY(0);
+
+}
+
+}
+
+
+
+
+
+/* Architecture */
+
+
+.architecture{
+
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+
+}
+
+
+
+.data-box{
+
+
+width:150px;
+
+padding:20px;
+
+
+border-radius:15px;
+
+
+background:
+
+rgba(0,255,255,.15);
+
+
+border:
+
+1px solid #00ffff;
+
+
+color:white;
+
+
+font-weight:bold;
+
+
+box-shadow:
+
+0 0 25px #00ffff;
+
+
+animation:
+
+boxFloat 4s infinite ease-in-out;
+
+
+}
+
+
+
+
+.source{
+animation-delay:.2s;
+}
+
+
+.ingestion{
+animation-delay:.6s;
+}
+
+
+.processing{
+animation-delay:1s;
+}
+
+
+.storage{
+animation-delay:1.5s;
+}
+
+
+.analytics{
+animation-delay:2s;
+}
+
+
+
+
+@keyframes boxFloat{
+
+
+0%{
+
+transform:
+translateY(0);
+
+}
+
+
+50%{
+
+transform:
+translateY(-20px);
+
+}
+
+
+100%{
+
+transform:
+translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+.arrow{
+
+
+font-size:40px;
+
+color:#00ffff;
+
+
+animation:
+
+arrowMove 1.5s infinite;
+
+
+}
+
+
+
+
+@keyframes arrowMove{
+
+
+0%{
+
+transform:
+translateX(0);
+
+opacity:.3;
+
+}
+
+
+50%{
+
+transform:
+translateX(20px);
+
+opacity:1;
+
+}
+
+
+100%{
+
+transform:
+translateX(0);
+
+opacity:.3;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* DATA PARTICLES */
+
+
+.particle{
+
+
+position:absolute;
+
+z-index:3;
+
+color:#00ffff;
+
+font-weight:bold;
+
+
+text-shadow:
+
+0 0 20px #00ffff;
+
+
+animation:
+
+particleMove 7s infinite;
+
+
+}
+
+
+
+.p1{
+top:15%;
+left:10%;
+}
+
+
+.p2{
+bottom:20%;
+left:20%;
+}
+
+
+.p3{
+top:30%;
+right:15%;
+}
+
+
+.p4{
+bottom:25%;
+right:10%;
+}
+
+
+.p5{
+top:70%;
+left:45%;
+}
+
+
+.p6{
+top:10%;
+right:40%;
+}
+
+
+
+
+
+@keyframes particleMove{
+
+
+0%{
+
+transform:
+translateY(0)
+rotate(0);
+
+opacity:.4;
+
+}
+
+
+50%{
+
+transform:
+translateY(-50px)
+rotate(20deg);
+
+opacity:1;
+
+}
+
+
+100%{
+
+transform:
+translateY(0)
+rotate(0);
+
+opacity:.4;
+
+}
+
+
+}
+
+
+
+
+
+@media(max-width:768px){
+
+
+.section-top-title h1{
+
+font-size:35px;
+
+}
+
+
+.architecture{
+
+flex-direction:column;
+
+}
+
+
+.arrow{
+
+transform:rotate(90deg);
+
+}
+
+
+}
+
+
+
+</style>
+
 		
 		<!-- CONTACT -->
 		<div id="contact" class="contact_area section-padding">
