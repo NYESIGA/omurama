@@ -51,7 +51,7 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	</head>
+	</head> 
 	
     <body data-spy="scroll" data-offset="80">
 
@@ -144,6 +144,483 @@
 		  </div>
 		</header>
 	   <!-- END NAVBAR-->	
+<!-- START SECTION TOP -->
+<section class="section-top software-section" 
+style="background-image: url(assets/img/bg/section-top.png);
+background-size:cover; 
+background-position:center center;">
+
+    <!-- Animated Tech Background -->
+    <div class="tech-overlay"></div>
+
+    <div class="floating-code code1">&lt;/&gt;</div>
+    <div class="floating-code code2">{ AI }</div>
+    <div class="floating-code code3">010101</div>
+    
+     <!-- Floating Programming Languages -->
+
+<div class="floating-code code3">JavaScript</div>
+<div class="floating-code code4">Python</div>
+<div class="floating-code code5">Java</div>
+
+<div class="floating-code code6">C++</div>
+<div class="floating-code code7">C#</div>
+<div class="floating-code code8">PHP</div>
+<div class="floating-code code9">SQL</div>
+<div class="floating-code code10">React</div>
+
+<div class="floating-code code11">Node.js</div>
+<div class="floating-code code12">Django</div>
+<div class="floating-code code13">Flutter</div>
+<div class="floating-code code14">AI</div>
+<div class="floating-code code15">ML</div>
+
+
+<!-- Moving Binary Bits -->
+<div class="binary bit1">1011010101</div>
+<div class="binary bit2">0101101010</div>
+<div class="binary bit3">1100101011</div>
+<div class="binary bit4">0011011010</div>
+
+
+<!-- Quantum Computing Qubits -->
+<div class="qubit q1">|0⟩</div>
+<div class="qubit q2">|1⟩</div>
+<div class="qubit q3">QUBIT</div>
+<div class="qubit q4">Quantum AI</div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+
+                <div class="section-top-title animated-title">
+
+                    <h1>
+                        Omurama Software Development
+                    </h1>
+
+                    <p>
+                        Civil Engineering • Software Development • Artificial Intelligence • Digital Solutions
+                    </p>
+
+                </div>
+
+            </div>
+            <!-- END COL -->
+
+        </div>
+        <!-- END ROW -->
+
+    </div>
+    <!-- END CONTAINER -->
+
+</section>
+<!-- END SECTION TOP -->
+
+
+<style>
+
+/* SECTION */
+.software-section{
+    position:relative;
+    overflow:hidden;
+    min-height:330px;
+    display:flex;
+    align-items:center;
+}
+
+
+/* Dark Tech Layer */
+.tech-overlay{
+    position:absolute;
+    inset:0;
+    background:
+    linear-gradient(
+    135deg,
+    rgba(0,20,40,.85),
+    rgba(0,120,255,.35)
+    );
+
+    animation:backgroundMove 8s infinite alternate;
+}
+
+@keyframes backgroundMove{
+
+0%{
+transform:scale(1);
+}
+
+100%{
+transform:scale(1.15);
+}
+
+}
+
+/* Title Animation */
+
+.animated-title{
+    position:relative;
+    z-index:5;
+    animation:slideUp 1.5s ease;
+}
+
+.animated-title h1{
+
+font-size:60px;
+font-weight:800;
+color:white;
+text-shadow:
+0 0 20px #00eaff;
+
+animation:pulseGlow 3s infinite;
+
+}
+
+.animated-title p{
+
+color:white;
+font-size:20px;
+margin-top:15px;
+
+animation:fadeIn 2s ease;
+
+}
+
+/* Floating Code */
+
+.floating-code{
+
+position:absolute;
+z-index:2;
+color:#00eaff;
+font-size:35px;
+font-weight:bold;
+opacity:.7;
+
+text-shadow:
+0 0 20px #00eaff;
+
+animation:float 6s infinite ease-in-out;
+
+}
+
+.code1{
+top:20%;
+left:10%;
+}
+.code2{
+top:60%;
+left:20%;
+animation-delay:2s;
+}
+.code3{
+top:25%;
+right:15%;
+animation-delay:1s;
+}
+.code4{
+bottom:15%;
+right:25%;
+animation-delay:3s;
+}
+.code5{
+top:45%;
+right:8%;
+animation-delay:4s;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px) rotate(0deg);
+}
+50%{
+transform:translateY(-35px) rotate(15deg);
+}
+100%{
+transform:translateY(0px) rotate(0deg);
+}
+
+}
+
+@keyframes pulseGlow{
+
+0%{
+text-shadow:
+0 0 10px #00eaff;
+}
+
+50%{
+text-shadow:
+0 0 35px #00eaff,
+0 0 60px #007bff;
+}
+
+100%{
+text-shadow:
+0 0 10px #00eaff;
+}
+
+}
+
+@keyframes slideUp{
+
+from{
+opacity:0;
+transform:translateY(60px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.animated-title h1{
+font-size:40px;
+}
+
+.animated-title p{
+font-size:15px;
+}
+
+.floating-code{
+font-size:22px;
+}
+}
+/* Programming floating objects */
+
+.floating-code,
+.binary,
+.qubit{
+
+position:absolute;
+z-index:3;
+font-weight:800;
+color:#00f7ff;
+
+text-shadow:
+0 0 15px #00f7ff,
+0 0 40px #007bff;
+
+opacity:.8;
+
+}
+
+
+/* Programming Animation */
+
+.floating-code{
+
+font-size:24px;
+animation:
+floatCode 7s infinite ease-in-out;
+
+}
+
+
+@keyframes floatCode{
+
+0%{
+transform:
+translateY(0)
+rotate(0deg);
+}
+
+50%{
+transform:
+translateY(-45px)
+rotate(15deg);
+}
+
+100%{
+transform:
+translateY(0)
+rotate(0deg);
+}
+
+}
+
+
+
+/* Different Positions */
+
+.code1{top:15%;left:5%;}
+.code2{top:35%;left:15%;animation-delay:1s;}
+.code3{top:20%;right:15%;animation-delay:2s;}
+.code4{bottom:20%;left:10%;animation-delay:3s;}
+.code5{bottom:10%;right:20%;}
+
+.code6{top:70%;right:8%;animation-delay:2s;}
+.code7{top:50%;left:35%;animation-delay:4s;}
+.code8{top:10%;right:40%;animation-delay:1s;}
+.code9{bottom:30%;right:45%;animation-delay:3s;}
+.code10{top:65%;left:50%;}
+
+.code11{top:25%;left:55%;animation-delay:2s;}
+.code12{bottom:15%;left:40%;animation-delay:4s;}
+.code13{top:75%;right:35%;}
+.code14{top:40%;right:5%;}
+.code15{bottom:40%;left:5%;}
+
+
+
+/* Binary Moving Bits */
+
+
+.binary{
+
+font-size:18px;
+letter-spacing:5px;
+color:#39ff88;
+
+animation:
+binaryMove 5s infinite linear;
+
+}
+
+
+.bit1{
+top:5%;
+left:30%;
+}
+
+
+.bit2{
+top:80%;
+left:25%;
+animation-delay:2s;
+}
+
+
+.bit3{
+right:25%;
+top:55%;
+animation-delay:1s;
+}
+
+
+.bit4{
+bottom:5%;
+right:10%;
+animation-delay:3s;
+}
+
+
+
+@keyframes binaryMove{
+
+0%{
+transform:
+translateX(-50px);
+opacity:0;
+}
+
+
+50%{
+opacity:1;
+}
+
+
+100%{
+transform:
+translateX(80px);
+opacity:0;
+}
+
+}
+
+
+
+/* Quantum Qubits */
+
+
+.qubit{
+
+font-size:32px;
+color:#ff00ff;
+
+animation:
+quantumFloat 4s infinite ease-in-out;
+
+}
+
+
+
+.q1{
+top:30%;
+left:45%;
+}
+
+
+.q2{
+bottom:25%;
+right:45%;
+animation-delay:1s;
+}
+
+
+.q3{
+top:15%;
+right:30%;
+animation-delay:2s;
+}
+
+
+.q4{
+bottom:15%;
+left:60%;
+animation-delay:3s;
+}
+
+
+
+@keyframes quantumFloat{
+
+
+0%{
+transform:
+scale(1)
+rotate(0deg);
+}
+
+
+50%{
+transform:
+scale(1.4)
+rotate(180deg);
+}
+
+
+100%{
+transform:
+scale(1)
+rotate(360deg);
+}
+
+
+}
+</style>
+
+
 
 
 	   			<!-- START SOFTWARE DEVELOPMENT SECTION -->
@@ -153,7 +630,7 @@
     <!-- HERO SECTION -->
     <div class="row align-items-center mb-5">
         <div class="col-lg-6">
-            <img src="assets/img/project/1.jpg" class="img-fluid rounded shadow" alt="Software Development">
+            <img src="assets/img/project/17.png" class="img-fluid rounded shadow" alt="Software Development">
         </div>
 
         <div class="col-lg-6">
@@ -207,7 +684,7 @@
         </div>
 
         <div class="col-lg-6">
-            <img src="assets/img/project/2.jpg" class="img-fluid rounded shadow">
+            <img src="assets/img/project/18.jpg" class="img-fluid rounded shadow">
         </div>
     </div>
 
@@ -215,7 +692,7 @@
     <div class="row align-items-center mb-5">
 
         <div class="col-lg-6">
-            <img src="assets/img/project/3.jpg" class="img-fluid rounded shadow">
+            <img src="assets/img/project/19.jpg" class="img-fluid rounded shadow">
         </div>
 
         <div class="col-lg-6">
@@ -268,7 +745,7 @@
         </div>
 
         <div class="col-lg-6">
-            <img src="assets/img/project/4.jpg" class="img-fluid rounded shadow">
+            <img src="assets/img/project/20.jpg" class="img-fluid rounded shadow">
         </div>
 
     </div>
@@ -277,7 +754,7 @@
     <div class="row align-items-center mb-5">
 
         <div class="col-lg-6">
-            <img src="assets/img/project/5.jpg" class="img-fluid rounded shadow">
+            <img src="assets/img/project/21.jpg" class="img-fluid rounded shadow">
         </div>
 
         <div class="col-lg-6">
@@ -404,68 +881,7 @@
 		</section>
 		<!-- END SECTION TOP -->
 
-		<!-- START PORTFOLIO SINGLE PROJECT -->
-		<section class="single_project_area section-padding">	
-			<div class="container">
-				<div class="row project_dec">
-					<div class="col-lg-6 col-sm-12 col-xs-12">
-						<div class="media-left">
-							<img src="assets/img/portfolio/8.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						<div class="media-left">
-							<img src="assets/img/portfolio/9.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						</div>
-						<div class="col-lg-6 col-sm-12 col-xs-12">
-							<div class="project_details">
-								<div class="about_project">
-									<h4>About Bestmark Network Infrastructure Project</h4>
-									<p>Omurama successfully delivered a complete network infrastructure solution for Bestmark, including network design, structured cabling, Wi-Fi deployment, router and switch configuration, security implementation, and system integration, ensuring reliable and secure connectivity across the organization..</p>
-								</div>
-								<div class="about_project_details">
-									<ul>
-										<li><i class="fa fa-user"></i><b>Client: </b>Google, Inc</li>
-										<li><i class="fa fa-clock-o"></i><b>Date: </b>01 Sep, 2026</li>
-										<li><i class="fa fa-folder"></i><b>Category: </b><a href="#">Networking Services</a></li>
-										<li><i class="fa fa-folder"></i><b>Project Url: </b><a href="#">www.google.com</a></li>
-									</ul>
-								</div>
-								<a class="btn_one" href="#">See Live Project</a>
-							</div>
-						</div><!--- END COL -->
-				</div><!--- END ROW -->
-				<div class="row project_dec">
-					<div class="col-lg-6 col-sm-12 col-xs-12">
-						<div class="media-left">
-							<img src="assets/img/portfolio/2.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						<div class="media-left">
-							<img src="assets/img/portfolio/7.JPEG" class="img-fluid" alt="portfolio-image" />		
-						</div>
-						
-						</div>
-						<div class="col-lg-6 col-sm-12 col-xs-12">
-							<div class="project_details">
-								<div class="about_project">
-									<h4>About Kira Road Commercial Building Project </h4>
-									<p>Omurama Civil and Computer Engineering Company Limited successfully delivered the complete construction of a modern commercial building on Kira Road, Kampala. The project included structural construction, architectural works, electrical and plumbing installations, façade development, painting, paving, and final finishing, demonstrating our expertise in delivering end-to-end construction solutions..</p>
-								</div>
-
-								<div class="about_project_details">
-									<ul>
-										<li><i class="fa fa-user"></i><b>Client: </b>Google, Inc</li>
-										<li><i class="fa fa-clock-o"></i><b>Date: </b>02 Sep, 2025</li>
-										<li><i class="fa fa-folder"></i><b>Category: </b><a href="#"></a>Civil Engineering Services</li>
-										<li><i class="fa fa-folder"></i><b>Project Url: </b><a href="#">www.google.com</a></li>
-									</ul>
-								</div>
-								<a class="btn_one" href="#">See Live Project</a>
-							</div>
-						</div><!--- END COL -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>	
-		<!-- END PORTFOLIO SINGLE PROJECT -->
+		
 		
 		<!-- CONTACT -->
 		<div id="contact" class="contact_area section-padding">
